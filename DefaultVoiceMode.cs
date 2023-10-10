@@ -1,15 +1,14 @@
 ﻿using FrooxEngine;
 using HarmonyLib;
-using NeosModLoader;
-using System.Reflection;
+using ResoniteModLoader;
 
 namespace DefaultVoiceMode
 {
-    public class DefaultVoiceMode : NeosMod
+    public class DefaultVoiceMode : ResoniteMod
     {
         public override string Name => "DefaultVoiceMode";
         public override string Author => "Psychpsyo";
-        public override string Version => "1.0.0";
+        public override string Version => "2.0.0";
         public override string Link => "https://github.com/Psychpsyo/DefaultVoiceMode";
 
         public static bool setInitialVoiceMode = false;
